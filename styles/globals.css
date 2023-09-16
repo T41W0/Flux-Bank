@@ -17,13 +17,10 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42/var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184/var(--tw-text-opacity));
 }
 html{
   scroll-behavior: smooth;
